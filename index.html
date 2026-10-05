@@ -49,6 +49,9 @@
 <footer>THE LAST MACHINE · multiplayer temporaneo · nessun database</footer>
 </main>
 <script>
+  window.LM_WS_URL = "wss://sisteminumerazione.onrender.com";
+</script>
+ <script>
 const $=x=>document.getElementById(x);
 let ws=null, role="", nickname="", roomCode="", current=null, localStarted=false;
 const DEMO=false;
