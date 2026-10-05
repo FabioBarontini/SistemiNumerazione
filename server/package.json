@@ -1,9 +1,1 @@
-{
-  "name":"the-last-machine-server",
-  "version":"1.0.0",
-  "private":true,
-  "description":"WebSocket server for The Last Machine",
-  "main":"server.js",
-  "scripts":{"start":"node server.js"},
-  "dependencies":{"ws":"^8.18.0"}
-}
+{"name":"the-last-machine-server","version":"2.0.0","private":true,"main":"server.js","scripts":{"start":"node server.js"},"dependencies":{"ws":"^8.18.0"}}
